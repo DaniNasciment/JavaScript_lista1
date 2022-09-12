@@ -1,13 +1,13 @@
-const prompt = require('prompt-sync')()
+const prompt = require('prompt-sync')();
 
-const custoFString = prompt('\n Informe o custo de fábrica:')
+const custoFString = prompt('\n Informe o custo de fábrica:');
 
-const custoF = Number(custoFString)
+const custoF = Number(custoFString);
 
-const pDistribuidor=custoF*0.28
+const pDistribuidor=custoF*0.28;
 
-const imp=custoF*0.45
+const imp=custoF*0.45;
 
-const custoC=custoF+pDistribuidor+imp
+const custoC=custoF+pDistribuidor+imp;
 
-console.log(`\n O custo ao consumidor é em reais: ${custoC}`)
+console.log(`\n O custo ao consumidor é em reais: ${custoC}`);
