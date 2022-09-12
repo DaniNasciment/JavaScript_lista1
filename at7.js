@@ -1,33 +1,34 @@
-const prompt = require('prompt-sync')()
+const prompt = require('prompt-sync')();
 
-const aString = prompt('\n Informe o valor de a :')
+const aString = prompt('\n Informe o valor de a :');
 
-const a = Number(aString)
-
-
-const bString = prompt('\n Informe o valor de b :')
-
-const b = Number(bString)
+const a = Number(aString);
 
 
-const cString = prompt('\n Informe o valor de c :')
+const bString = prompt('\n Informe o valor de b :');
 
-const c = Number(cString)
+const b = Number(bString);
 
 
-const dString = prompt('\n Informe o valor de d :')
+const cString = prompt('\n Informe o valor de c :');
 
-const d = Number(dString)
+const c = Number(cString);
 
-const eString = prompt('\n Informe o valor de e :')
 
-const e = Number(eString)
+const dString = prompt('\n Informe o valor de d :');
 
-const fString = prompt('\n Informe o valor de f :')
+const d = Number(dString);
 
-const f = Number(fString)
+const eString = prompt('\n Informe o valor de e :');
 
-const x=((c * e) - (b * f)) / ((a * e) - (b * d))
-const y=((a * f) - (c * d)) / ((a * e) - (b * d))
+const e = Number(eString);
 
-console.log(`\n O valor de x e y é, respectivamente: ${x} , ${y}`)
+const fString = prompt('\n Informe o valor de f :');
+
+const f = Number(fString);
+
+const x=((c * e) - (b * f)) / ((a * e) - (b * d));
+
+const y=((a * f) - (c * d)) / ((a * e) - (b * d));
+
+console.log(`\n O valor de x e y é, respectivamente: ${x} , ${y}`);
