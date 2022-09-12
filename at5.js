@@ -14,4 +14,4 @@ const nota3 = Number(nota3String);
 
 const media=(((nota1*2)+(nota2*3)+(nota3*5))/(nota1+nota2+nota3));
 
-console.log(`\n Sua média ponderada é: ${media}`);
+console.log(`\n Sua média ponderada é: ${Math.floor(media)}`);

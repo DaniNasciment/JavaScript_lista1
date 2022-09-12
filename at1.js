@@ -14,4 +14,4 @@ const dias = Number(diasString);
 
 const dias2 =((anos*365)+(meses*30)+dias);
 
-console.log(`\n\n Sua idade expressa em dias é: ${dias2}}`);
+console.log(`\n\n Sua idade expressa em dias é: ${dias2}`);

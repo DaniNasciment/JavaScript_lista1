@@ -6,11 +6,11 @@ const dias = Number(diasString);
 
 const anos= (dias/365);
 
-console.log(`\n Sua idade em anos é: ${anos}`);
+console.log(`\n Sua idade em anos é: ${Math.floor(anos)}`);
 
 const meses =(dias%365)/30;
 
-console.log(`\n Sua idade em meses é: ${meses}`);
+console.log(`\n Sua idade em meses é: ${Math.floor(meses)}`);
 
 const dias2 = (dias%365)%30;
 
